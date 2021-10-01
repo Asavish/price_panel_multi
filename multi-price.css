@@ -1,0 +1,325 @@
+
+.backgr{
+    background-image: url(img/back1.png);
+    background-size:100% 100%;
+    background-attachment: fixed;
+    width:100%;
+    height:648px;
+    
+}
+.ab{
+    background-color:#e76f51;
+}
+
+.logo{
+    
+    font-family: 'Hanalei', cursive;
+    font-size:2.3em;
+    font-weight:500;
+    margin:0px;
+    padding:0;
+}
+
+.navbar-nav{
+    
+    text-transform: uppercase;
+}
+
+.frontview{
+    font-family: 'Roboto', sans-serif;
+    padding:100px 0 0 0;
+    
+}
+.frontview h1{
+    font-size:6em;
+    color:#e76f51 !important;
+}
+
+.frontview h3{
+    font-size:4em;
+    text-decoration: underline;
+    color:#e76f51 !important;
+}
+
+.price{
+     font-family: 'Roboto', sans-serif;
+    border:1px solid #ffd7ba;
+    padding:15px 35px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color:#e76f51;
+    font-size:120%;
+    background-color:whitesmoke;
+    margin:25px 0;
+    transition: background-color 250ms ease-in-out , transform 250ms ease-in-out;
+}
+.price:hover, .price:focus{
+    background-color: #ffe5d9;
+    box-shadow: 0 0.5em 0.5em -0.4em #ffe5d9;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+.is-featured1{
+   background-color:#f4a261;
+    color:whitesmoke;
+    border:1px solid #f4a261;
+}
+.is-featured1 a{
+   background-color:#f4a261;
+    color:whitesmoke;
+    border:1px solid #f4a261;
+}
+.is-featured1:hover, .is-featured1:focus{
+    background-color:#e76f51;
+    box-shadow: 0 0.5em 0.5em -0.4em #e76f51;
+    border:1px solid #e76f51;
+}
+.is-featured1>a:hover, .is-featured1>a:focus{
+    background-color:#e76f51;
+    box-shadow: 0 0.5em 0.5em -0.4em #e76f51;
+    border:1px solid #e76f51;
+}
+
+
+
+/* ----------------------PANNEL---------------------*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+
+from here 
+chaliye shur karte hai
+
+*/
+html{
+    box-sizing: border-box;
+}
+body{
+    background-color:#f4a261;
+    
+}
+
+.panel{
+    margin:100px 0 0 0;
+    background-color:#f4a261;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.main-panel{
+  
+    background-color:whitesmoke;
+    border-radius:10px;
+    padding:15px 25px;
+    display:flex;
+    flex-direction:column;
+    width:80%;
+   
+    max-width:950px;
+    text-align: center;
+    text-transform: uppercase;
+   
+    
+}
+
+.pricing-plan{
+    border-bottom: 1px solid #ffd7ba;
+}
+.pricing-plan:last-child{
+    
+     border-bottom:none;
+}
+
+.img{
+  
+    margin-bottom: 25px;
+    width:80%;
+    
+    max-width: 100%;
+    
+}
+
+.plan-hading{
+   font-family: 'Hanalei', cursive;
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-size:200%;
+    padding:15px 0;
+    color:#d8e2dc;
+}
+
+.feature{
+    color:#e76f51;
+    margin:40px 25px;
+   
+}
+.feature-item{
+     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 10px 0;
+    border-top: 1px solid #ffe5d9;
+   
+    
+}
+.feature-item:last-child{
+     border-bottom: 1px solid #ffe5d9;
+}
+
+.price-tag{
+    color:#e76f51;
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size:32px;
+}
+
+
+.price-tag:hover{
+    cursor: pointer;
+}
+
+.is-featured{
+   background-color:#ffd7ba;
+    color:whitesmoke;
+}
+.is-featured:hover, .is-featured:focus{
+    background-color:#f4a261;
+    box-shadow: 0 0.5em 0.5em -0.4em #f4a261;
+}
+
+
+
+
+
+
+@media (min-width:800px){
+    .main-panel{
+        flex-direction:row;
+        width:90%
+      
+    }
+    .pricing-plan{
+    border-right: 1px solid #ffd7ba;
+    border-bottom:none;
+        padding:25px 50px;
+}
+      .pricing-plan:last-child{
+   
+    border-right:none;
+}
+    
+    
+}
+
+@media (max-width:991px){
+    .frontview h1{
+    font-size:5em;
+    color:#e76f51 !important;
+}
+
+.frontview h3{
+    font-size:3em;
+    text-decoration: underline;
+    color:#e76f51 !important;
+}
+    .backgr{
+    background-image: url(img/back1.png);
+    background-size:100% 80%;
+    background-attachment: fixed;
+    width:100%;
+    height:448px;
+    
+}
+    
+}
+
+@media (max-width:763px){
+    .frontview h1{
+    font-size:3em;
+    color:#e76f51 !important;
+}
+
+.frontview h3{
+    font-size:2em;
+    text-decoration: underline;
+    color:#e76f51 !important;
+}
+    
+      .backgr{
+    background-image: url(img/back1.png);
+    background-size:100% 68%;
+    background-attachment: fixed;
+    width:100%;
+    height:448px;
+    
+}
+    
+}
+
+@media (max-width:470px){
+    .frontview h1{
+    font-size:2em;
+    color:#e76f51 !important;
+}
+
+.frontview h3{
+    font-size:1.5em;
+    text-decoration: underline;
+    color:#e76f51 !important;
+}
+
+
+
+
+
